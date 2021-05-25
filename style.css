@@ -1,0 +1,60 @@
+body{
+	background-color: #26D292;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: Script MT;
+	font-size: 55px;
+	
+}
+h2{
+	text-align: center;
+	font-family: Book Antiqua;
+	
+}
+h3{
+	text-align: center;
+	font-family: Constantia;
+	font-size: 12px;
+}
+input{
+	margin-left: 60px;
+	width: 60%;
+	margin-bottom: 20px;
+}
+label{
+	color: blue;
+	font-family: Arial;
+	font-size: 12px;
+	margin-left: 60px;
+	margin-bottom: -30px;
+}
+.login{
+
+	width: 320px;
+	height: 350px;
+	background: #90E8C7;
+	color: black;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+.button{
+	margin-left: 64px;
+}
+.login input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: #2699FB;
+	font-size: 18px;
+	color: white;
+}
+.login input[type="Email"], input[type="password"]{
+	border: none;
+	outline: none;
+	height: 25px;
+}
